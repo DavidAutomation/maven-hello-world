@@ -10,7 +10,8 @@ pool:
   vmImage: 'ubuntu-latest'
 
 variables:
-  imageName: 'mytestImage'  
+  imageName: 'mytestImage'
+  dockerHub: 'dockerhubconnection'
 
 steps:
 - task: Maven@3
