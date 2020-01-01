@@ -10,7 +10,7 @@ pool:
   vmImage: 'ubuntu-latest'
 
 variables:
-  imageName: 'mytestImage'
+  imageName: 'davidshato/mytestImage'
   dockerHub: docker
 
 steps:
