@@ -31,8 +31,6 @@ steps:
   displayName: Push image
   inputs:
     containerRegistry: $(dockerHub)
-    repository: $(imageName)
+    repository: myImage
     command: push
-    tags: |
-      test1
-      test2
+    tags: latest
