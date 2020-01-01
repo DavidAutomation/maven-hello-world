@@ -38,3 +38,5 @@ steps:
     containerRegistry: $(dockerHub)
     repository: $(imageName)
     command: push
+    tags: latest
+    
