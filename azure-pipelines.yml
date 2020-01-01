@@ -10,7 +10,7 @@ pool:
   vmImage: 'ubuntu-latest'
 
 variables:
-  imageName: 'mytestImage:latest'
+  imageName: 'mytestImage'
   dockerHub: 'dockerhubconnection'
 
 steps:
@@ -38,4 +38,3 @@ steps:
     containerRegistry: $(dockerHub)
     repository: $(imageName)
     command: push
-    tags: latest
