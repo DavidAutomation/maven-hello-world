@@ -11,7 +11,7 @@ pool:
 
 variables:
   imageName: 'mytestImage'
-  dockerHub: 'dockerhubconnection'
+  dockerHub: 'dockerHubConnection'
 
 steps:
 - task: Maven@3
