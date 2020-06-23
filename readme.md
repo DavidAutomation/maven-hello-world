@@ -10,7 +10,6 @@ Now, to print "Hello World!", type either...
     mvn compile
     java -cp target/classes com.mycompany.app.App
 
-or...
 
     cd my-app
     mvn package
